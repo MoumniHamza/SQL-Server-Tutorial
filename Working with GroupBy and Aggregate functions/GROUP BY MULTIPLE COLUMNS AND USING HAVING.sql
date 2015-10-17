@@ -1,0 +1,9 @@
+USE sample2
+GO
+
+
+SELECT City, AGE, SUM(SALARY) AS THE_SUM , MAX(SALARY)  AS THE_MAX
+FROM tblEmployee2
+GROUP BY City, AGE
+HAVING City = 'Portland'
+GO
