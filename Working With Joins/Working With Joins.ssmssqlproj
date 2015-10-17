@@ -1,9 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Working With Joins">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="MOHAMED\TESTBASE:MOHAMED\Mohamedhamza">
+          <Created>2015-10-17T15:17:37.2045434-07:00</Created>
+          <Type>SQL</Type>
+          <Server>MOHAMED\TESTBASE</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>sample2</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Full Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MOHAMED\TESTBASE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MOHAMED\TESTBASE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Full Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Inner Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MOHAMED\TESTBASE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MOHAMED\TESTBASE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Inner Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Inserting dummy data to work with.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MOHAMED\TESTBASE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MOHAMED\TESTBASE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Inserting dummy data to work with.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Left Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MOHAMED\TESTBASE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MOHAMED\TESTBASE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Left Join.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Right Join.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MOHAMED\TESTBASE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MOHAMED\TESTBASE</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Right Join.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
