@@ -2,3 +2,4 @@ USE sample2
 GO
 
 SELECT MAX(SALARY) FROM tblEmployee2
+GO
