@@ -1,0 +1,9 @@
+USE sample2
+GO
+
+
+
+SELECT E.Name AS Employee ,  CASE WHEN M.Name IS NULL THEN 'NO MANAGER' ELSE M.Name END AS Manager
+FROM EMP E LEFT JOIN EMP M
+ON E.EmployeeID = M.ManagerID
+GO
